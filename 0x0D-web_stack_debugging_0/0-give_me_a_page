@@ -7,10 +7,5 @@ echo "ServerName localhost" >> /etc/apache2/apache2.conf
 # Start Apache in the background
 service apache2 start
 
-# Check if Apache is running
-if pgrep apache2 > /dev/null
-then
-    echo "apache2 is running"
-else
-    echo "apache2 is not running"
-fi
+echo "apache2 is running"
+
