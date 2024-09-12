@@ -4,3 +4,4 @@ KEY_NAME="school"
 KEY_BITS=4096
 # Generate the RSA key pair
 ssh-keygen -t rsa -b $KEY_BITS -f $KEY_NAME -N betty
+
